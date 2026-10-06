@@ -8,9 +8,13 @@
   "not_found_handling": "single-page-application"
 },
 
-"previews": {},
-
 "vars": {
   "OPENAI_MODEL": "gpt-6-luna"
+},
+
+"previews": {
+  "vars": {
+    "OPENAI_MODEL": "gpt-6-luna"
+  }
 }
 }

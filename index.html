@@ -34,11 +34,34 @@ html,body{
 }
 
 body{
-  background:
-    radial-gradient(circle at 52% 42%,rgba(95,15,150,.16),transparent 29%),
-    radial-gradient(circle at 50% 72%,rgba(82,18,126,.10),transparent 28%),
-    linear-gradient(#020104,#010102);
+  margin:0;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  background:#000;
 }
+
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  z-index:0;
+
+  background-image:url("Imagem do ChatGPT 6 de out. de 2026, 09_24_32.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;
+
+  pointer-events:none;
+}
+
+ /* MODO MOCKUP APROVADO */
+#space,
+.vignette,
+.noise,
+.app{
+  display:none !important;
+} 
 
 /* FUNDO */
 

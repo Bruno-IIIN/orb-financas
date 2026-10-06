@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "orb-financas",
+  "compatibility_date": "2026-10-06",
+  "main": "./worker/index.ts",
+
+  "assets": {
+    "not_found_handling": "single-page-application"
+  },
+
+  "vars": {
+    "OPENAI_MODEL": "gpt-6-luna"
+  }
+}
